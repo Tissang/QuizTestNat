@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Quest>
+    <question
+        bans="Блок"
+        cans="Функция"
+        dans="Секция"
+        eans="Тело"
+        atext="Как называется код между фигурными скобками?" />
+
+    <question
+        bans="Notepad"
+        cans="Java"
+        dans="Kotlin"
+        eans="Python"
+        atext="Какой язык не является языком программирования?" />
+
+    <question
+        bans="Object"
+        cans="List"
+        dans="Runtime"
+        eans="Collection"
+        atext="От какого класса наследуют все классы Java?" />
+
+    <question
+        bans="C++"
+        cans="Lisp"
+        dans="Pascal"
+        eans="Assembler"
+        atext="Какой язык программирования лежит в основе Java?" />
+
+    <question
+        bans="Oak (Дуб)"
+        cans="Ant (Муравей)"
+        dans="Ray (Луч)"
+        eans="Bee (Пчела)"
+        atext="Как первоначально хотели назвать этот язык программирования?" />
+
+    <question
+        bans="Модификатор доступа"
+        cans="Литералом"
+        dans="Оператором"
+        eans="Переменной"
+        atext="Чем является ключевое слово «public»?" />
+
+    <question
+        bans="С буквы"
+        cans="С цифры"
+        dans="С тире"
+        eans="С любого символа"
+        atext="С какого символа может начинаться имя переменной в языке Java??" />
+
+</Quest>

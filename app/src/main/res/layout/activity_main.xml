@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:padding="25dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/total_question"
+        android:text="Количество вопросов: "
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:textColor="@color/white"/>
+
+
+    <ProgressBar
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:id="@+id/progressbar"
+        android:layout_height="wrap_content"
+        android:progress="0"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="20dp"/>
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/choice_layout"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Здесь будет вопрос"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/choice_layout"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ans_A"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/cardview_dark_background"
+            android:text="Ans A"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ans_B"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/cardview_dark_background"
+            android:text="Ans B"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ans_C"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/cardview_dark_background"
+            android:text="Ans C"
+            android:textColor="@color/white"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ans_D"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/cardview_dark_background"
+            android:text="Ans D"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/next_btn"
+        android:text="Next"
+        app:cornerRadius="16dp"
+        android:backgroundTint="#107eeb"
+        android:layout_below="@id/choice_layout"
+        android:layout_marginTop="40dp"/>
+
+
+
+</RelativeLayout>
